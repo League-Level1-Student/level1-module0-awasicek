@@ -12,8 +12,8 @@ import javax.swing.JOptionPane;
 // The program will have a window (frame) with a button that gives one of five random fortunes when clicked.
 
 public class FortuneCookie implements ActionListener {
-	JFrame frame = new JFrame();
-	JButton button = new JButton("Show Fortune");
+	private JFrame frame = new JFrame();
+	private JButton button = new JButton("Show Fortune");
 	
 	public void run() {
 		showButton();

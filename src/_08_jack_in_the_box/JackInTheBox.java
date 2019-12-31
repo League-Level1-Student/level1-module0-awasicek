@@ -14,15 +14,15 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class JackInTheBox {
-	final String IMAGE_FILE_NAME = "jackInTheBox.png";
-	final String SOUND_FILE_NAME = "homer-woohoo.wav";
-	final int SURPRISE_THRESHOLD_NUM = 5;
+	private final String IMAGE_FILE_NAME = "jackInTheBox.png";
+	private final String SOUND_FILE_NAME = "homer-woohoo.wav";
+	private final int SURPRISE_THRESHOLD_NUM = 5;
 	
-	int timesClicked = 0;
+	private int timesClicked = 0;
 	
-	JFrame frame = new JFrame();
-	JPanel panel = new JPanel();
-	JButton button = new JButton("Surprise");
+	private JFrame frame = new JFrame();
+	private JPanel panel = new JPanel();
+	private JButton button = new JButton("Surprise");
 	
 	public void run() {
 		frame.add(panel);

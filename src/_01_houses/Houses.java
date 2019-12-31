@@ -5,9 +5,9 @@ import java.awt.Color;
 import org.jointheleague.graphical.robot.Robot;
 
 public class Houses {
-	Robot homeBot = new Robot();
-	static final int GRASS_WIDTH = 25;
-	static final int HOUSE_WIDTH = 50;
+	private Robot homeBot = new Robot();
+	private static final int GRASS_WIDTH = 25;
+	private static final int HOUSE_WIDTH = 50;
 	
 	public void run() {
 		// [optional] Set the scene to night by setting the background to black
