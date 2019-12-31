@@ -6,7 +6,7 @@ package _05_body_part_quiz;
  */
 
 public class BodyPartQuizRunner {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		new BodyPartQuiz().run();
 	}
 }
